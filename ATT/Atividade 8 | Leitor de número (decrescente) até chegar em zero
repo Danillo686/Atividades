@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    inteiro numero, i
+    i = 1
+
+    escreva ("Escreva um número:  ")
+    leia (numero)
+
+    enquanto (i <= 10){
+      numero -=1
+      escreva ("\n", numero)
+    
+      se (numero == 0){
+        escreva ("\n", "A contagem chegou a zero. ")
+          pare
+      }
+    }  
+  }
+}
