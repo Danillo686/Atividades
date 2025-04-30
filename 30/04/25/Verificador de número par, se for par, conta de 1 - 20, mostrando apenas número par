@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro contador
+    escreva ("Escreva um número:  ")    
+    leia (contador)
+
+    se (contador % 2 == 0){
+      para (contador = 0 ; contador <= 20 ; contador +=2){
+       escreva ("\n", "Número par:  ", contador)
+      }
+    }
+    senao
+    escreva ("Desculpe, seu número não é par")
+  } 
+}
