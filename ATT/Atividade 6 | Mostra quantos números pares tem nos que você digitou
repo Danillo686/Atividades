@@ -1,0 +1,15 @@
+programa {
+  funcao inicio() {
+    inteiro numero, i, par = 0
+       
+    para (i = 1 ; i <= 10 ; i ++){
+      escreva ("Escreva um número:  ")
+      leia (numero)
+      se (numero % 2 == 0){
+        par ++
+      }          
+    }
+   escreva ("-----------------------------", "\n")
+   escreva ("Números par presente:  ", par)
+  }
+}
