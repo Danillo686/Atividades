@@ -1,0 +1,24 @@
+# Code 29/04/25 Calculo de número infinitamente
+programa {
+  funcao inicio() {
+    inteiro N, calc, resposta 
+    resposta = 1
+    //variaveis
+    enquanto ( resposta < 5){
+      escreva ("\n", "Escolha um número:  ")
+      leia(N)
+     //multiplicar por 3
+      calc = N * 3
+      limpa ()
+      escreva ("Seu resultado:  ", calc, "\n")
+     //segunda parte, pergunta
+      escreva ("Você quer calcular outro número?", "\n", "Digite 1 para sim e 2 para não", "\n")
+      leia (resposta)
+     //quebra 
+      se (resposta == 2){
+        escreva ("tudo bem")
+        pare
+      }
+    }
+  }
+}
