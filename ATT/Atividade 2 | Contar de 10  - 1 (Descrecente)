@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro contador, i 
+    i = 0
+    contador = 11
+
+    enquanto (i < 10){
+      contador --
+      i += 1
+      escreva ("\n", "Contando, espere...", contador )
+    }
+    escreva ("\n", "Sua contagem foi feita com Sucesso!!")
+  }
+}
