@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    // Exibir a tabuada de um número informado pelo usuário.
+
+    inteiro numero, i, resultado
+    i = 0
+  
+    escreva ("Escreva o número que você quer ver a tabuada:  ")
+    leia(numero)
+    enquanto (i <= 99){
+      i += 1
+     resultado = numero * i
+      escreva ("\n", numero, " x ", i, " = ", resultado)
+    }
+  }
+}
