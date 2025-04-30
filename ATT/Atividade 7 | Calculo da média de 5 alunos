@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    real nota, media = 0
+    inteiro cont
+
+    para (cont = 1 ; cont <= 5 ; cont++){
+      escreva ("Digite a ", cont, " Nota:  ")
+      leia (nota) // o (leia) consegue fazer o (escrever) não entrar em looping infinito
+      media = media + nota
+    }
+    media = media / 5
+    escreva ("Media do Aluno:  ", media)
+  }
+}
