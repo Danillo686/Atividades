@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro calc, numb, i 
+
+    numb = 3
+    
+
+    para (i = 1 ; i <= 10 ; i +=1){
+      calc = i * numb
+      escreva ("\n", "Calculand...", calc)
+    }
+  }
+}
