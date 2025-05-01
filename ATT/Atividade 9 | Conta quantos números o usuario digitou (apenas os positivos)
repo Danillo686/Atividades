@@ -1,0 +1,23 @@
+programa {
+  inclua biblioteca Texto --> tx
+  funcao inicio() {
+    inteiro cont, X
+    cadeia numb
+    X = 0
+
+      escreva ("")
+      leia(numb)
+      se (numb > 0){
+       para (cont = 0 ; cont <= tx.numero_caracteres(numb) ; cont ++){
+            X +=1
+        }
+       limpa ()
+        escreva ("Seu número: ", numb, " Contem ", X, " Números positivos")
+      }
+      
+        senao
+
+      escreva ("Seu código não pode ser executado")
+     }
+  }
+}
