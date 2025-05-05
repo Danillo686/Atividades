@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+
+    escreva ("Escreva sua idade:  ")
+    leia (idade)
+
+    se ( idade >= 18)
+      escreva ("Maior de Idade")
+    
+    senao 
+
+    escreva ("Menor de idade")
+  }
+/*
+ Se a idade for igual ou maior que 18, ele é maior SENAO (senão for maior ou igual a 18) ele é menor
+*/
+}
