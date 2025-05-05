@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro i,  numb
+    i = 1 
+    numb = 11
+
+    enquanto ( i <= 10){
+      numb -- 1
+      i += 1 
+        escreva ("\n", numb)
+    }
+/* 
+enquanto "i" for menor que 10, o "numb" irá subtrair 1 (numb == 11), quando "i" for igual á 10
+o numb vai equivaler a 1, já que o 1 atingiu a 10
+*/
+  }
+}
