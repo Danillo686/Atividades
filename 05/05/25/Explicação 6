@@ -1,0 +1,41 @@
+programa {
+  funcao inicio() {
+    real notas, calc, notaFinal
+    inteiro num, i, soma, x, 
+    i = 1
+    num = 0 
+    x = 0
+
+    enquanto (i <= 5){
+      num +=1
+      i += 1
+
+      escreva ("Digite a ", num, " n.º", " nota:  ")
+      leia (notas) // escolha da nota
+
+      x = x + notas
+      calc = x + 0
+      // calculando a nota, "valor + notas"
+    }
+
+    notaFinal = calc / 5 //calcula da nota final
+
+    se (notaFinal >= 7){
+      escreva ("Nota:  ", notaFinal, " Ele passou")
+    }
+    senao se (notaFinal <= 6){
+      escreva ("Nota:  ", notaFinal, " Recuperação")
+    }
+    senao
+    escreva ("Nota:  ", notaFinal, " Reprovado")
+  }
+}
+
+/* o "x" equivale a 0, quando acontece o primeiro loop, ele armazena o primeiro número, no próximo loop, ele calcula o novo número pelo o que tava armazenado
+1 - loop 2 + 0 = 2
+2 - loop 2 + 2 = 4
+3 - loop 2 + 4 = 6
+4 - loop 2 + 6 = 8
+5 - loop 2 + 8 = 10
+o número da esquerda é o que o usuário digita, o da esquerda é o que o "x" armazena e calcula pelo próxim número que o usuário digitou
+*/
