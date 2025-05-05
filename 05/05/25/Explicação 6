@@ -1,33 +1,31 @@
 programa {
   funcao inicio() {
-    real notas, calc, notaFinal
-    inteiro num, i, soma, x, 
+    real notas, notaFinal
+    inteiro i, soma, x, 
     i = 1
-    num = 0 
+    
     x = 0
 
     enquanto (i <= 5){
-      num +=1
-      i += 1
-
-      escreva ("Digite a ", num, " n.º", " nota:  ")
+      
+      escreva ("Digite a ", i, " n.º nota:  ")
       leia (notas) // escolha da nota
 
       x = x + notas
-      calc = x + 0
+      i += 1
       // calculando a nota, "valor + notas"
     }
 
-    notaFinal = calc / 5 //calcula da nota final
+    notaFinal = x / 5 //calcula da nota final
 
     se (notaFinal >= 7){
-      escreva ("Nota:  ", notaFinal, " Ele passou")
+      escreva ("Nota: ", notaFinal, " Ele passou")
     }
-    senao se (notaFinal <= 6){
-      escreva ("Nota:  ", notaFinal, " Recuperação")
+    senao se (notaFinal >= 4){
+      escreva ("Nota: ", notaFinal, " Recuperação")
     }
-    senao
-    escreva ("Nota:  ", notaFinal, " Reprovado")
+    senao se (notaFinal <= 4 ou notaFinal == 0)
+      escreva ("Nota: ", notaFinal, " Reprovado")
   }
 }
 
