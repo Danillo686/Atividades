@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro i, contador
+    i = 1 // variáveis
+    contador = 0
+
+
+    //enquanto "i" for menor a "10" o "i" e o "contador" recebão mais 1 até o "i" equivaler a 10, então o contador terá o mesmo resultado
+
+    enquanto(i <= 10) { // <---- i equivale a um loop
+      contador += 1
+      i += 1
+
+     escreva ("\n", contador)
+      
+    }
+  }
+}
