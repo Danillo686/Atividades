@@ -1,0 +1,27 @@
+programa {
+  funcao inicio() {
+    inteiro idade
+
+    escreva ("Escreva sua idade:  ")
+    leia (idade)
+
+    se (idade >= 60){
+      escreva ("Idoso")
+    }
+    senao se (idade >= 18 ou idade == 59){
+      escreva ("Adulto")
+    }
+    senao se (idade >= 13 ou idade == 17){
+      escreva ("Adolescente")
+    }
+    senao 
+    escreva ("Criança")
+  }
+}
+
+/* 
+se idade for igual ou maior que 60, ele é idoso
+se idade for maior ou igual a 18 ou igual a 59, ele é adulto
+se idade for  maior ou igual 13 ou igual a 17, ele é adolescente
+se não for nenhum das acimas, ele é criança
+*/
