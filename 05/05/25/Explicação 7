@@ -1,0 +1,20 @@
+programa {
+  funcao inicio() {
+    inteiro numb
+
+    escreva ("Escolha um número:  ")
+    leia (numb)
+
+    se (numb > 0){
+      escreva ("Seu número é positivo")
+    }
+    senao se (numb == 0){
+      escreva ("Seu número é zero")
+    }
+    senao 
+    escreva ("Seu número é negativo")
+  } 
+}
+/*
+se o "numb" for maior que zero, ele é positivo, se ele for igual a 0, ele é zero, senao for nenhum dos dois, ele é negativo
+*
