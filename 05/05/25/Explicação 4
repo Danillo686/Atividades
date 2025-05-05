@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    inteiro par, numb
+
+    escreva ("Escreva um número:  ")
+    leia (numb)
+
+    se (numb % 2 == 0 )
+      escreva ("Seu núemero é par")
+
+    senao 
+
+    escreva ("Seu número é ímpar")
+  }
+/*
+se o resto de "numb" dividido por 2 for igual a 0, significa que ele é par 
+*/
+}
