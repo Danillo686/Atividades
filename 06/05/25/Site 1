@@ -1,0 +1,11 @@
+<html>
+	<head>
+		<title> Primeiro Site </title>
+	</head>
+	<body>
+		<p>Minha primeira página HTML</p>
+	</body>
+
+</html>
+
+//escrever algo com "<nome>" para iniciar e usar "</nome>" para fechar 
