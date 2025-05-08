@@ -1,0 +1,27 @@
+<html>
+<head>
+
+</head>
+<body>
+    <header style="font-size: larger;">Lanchonete do Seu Madruga</header>
+    <section>
+        <h2>Lanches</h2>
+        <ul>
+            <li><mark>Sanduíche de Presunto</mark></li>
+            <li>Pão com ovo</li>
+            <li>Batata fritas</li>
+            <li>Feijoada</li>
+            <li>Salgados</li>
+        </ul>
+        <br>
+        <h2>Bebidas</h2>
+        <ol>
+            <li>Cervejas</li>
+            <li><strong>Sucos</strong></li>
+            <li>Milkshake's</li>
+            <li>Vinhos</li>
+            <li>Refrigerantes</li>
+        </ol>
+    </section>
+    <small>Preços e itens sujeitos a alterações.</small>
+</body>
