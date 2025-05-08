@@ -1,0 +1,32 @@
+<html>
+<head>
+    
+</head> 
+<body>
+    <caption>Notas do Primeiro Trimestre</caption>
+
+    <table border = 1>
+        <tr>
+            <th>Nome</th>
+            <th>Disciplina</th>
+            <th>Nota</th>
+        </tr>
+        <tr>
+            <td>Marcos</td>
+            <td>Matématica</td>
+            <td>10</td>
+        </tr>
+        <tr>
+            <td>Murilo</td>
+            <td>Português</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>Guilherme</td>
+            <td>Geografia</td>
+            <td>9,5</td>
+        </tr>
+    </table>
+
+</body>
+</html>
