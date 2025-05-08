@@ -1,0 +1,20 @@
+<html>
+<head>
+
+</head>
+<body>
+    <p>Nome:</p>
+    <input type="text">
+    <br>
+    <p>Senha:</p>
+    <input type="password">
+    <br>
+    <p>Email:</p>
+    <input type="email">
+    <br>
+    <p>Mensagem:</p>
+    <input style="height: 200; width: 350;" type="text">
+    <br>
+    <input type="submit" ; style="height: 40; width: 150;">
+</body>
+</html>
