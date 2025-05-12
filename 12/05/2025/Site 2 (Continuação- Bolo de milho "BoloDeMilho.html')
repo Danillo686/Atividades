@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <h1 style="text-align: center; font-family: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Hoje vamos aprender a fazer um <strong>MARAVILHOSO</strong> bolo de milho</h1>
+    </head>
+    <body style="background-color:aquamarine"> 
+        <h4 style="text-align: center;">O bolo de milho é muito fácil e simples de se fazer, ingredientes abaixo:</h4>
+        <div style="text-align: center; background-color: bisque; font-family: 'Courier New', Courier, monospace">
+            <br>
+            <h1>Ingredientes:</h1>
+            <p>3 Ovos</p>
+            <p>Açucar</p>
+            <p>Óleo</p>
+            <p>Flocão</p>
+            <p>Leite</p>
+            <p>Fermente</p>
+            <p>Pacote de milho</p>
+        </div>    
+        <div style="text-align: center; background-color: azure; font-family: 'Courier New', Courier, monospace;">
+             <h1>Modo de preparo:</h1>
+            <p>Ligue o forno em 200 graus por 60 minutos</p>
+            <p>Em seguida você vai bater os 3 ovos por 3/5 minutos</p>
+            <p>E depois colocar:</p>
+            <p>250g de Açucar</p>
+            <p>2 medidor de 250 de Flocão</p>
+            <p>2 medidor de 250 de Leite</p>
+            <p>150ml de Óleo</p>
+            <p>e um pacote inteiro de milho</p>
+        </div>
+        <h3>Quando você tiver colocado tudo, basta bater tudo por 5 minutos, quando der o tempo, pare e adicione 2 colheres de fermento, depois bata por 2 minutos</h3>
+        <br>
+        <h1 style="text-align: center;">E pronto! Seu bolo está pronto, só esperar e se deliciar!</h1>
+        <div style="text-align: center;">
+             <img src="https://static.itdg.com.br/images/640-440/34117654fc8c1b0b2fff7874a9c458bf/shutterstock-1760209226-1-.jpg"> 
+        </div>
+        <h1>Aproveite!</h1>
+    </body>
+</html>
