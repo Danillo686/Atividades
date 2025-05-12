@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head style="font-family: ; "></head>
+<head style="font-family: font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; "></head>
 
 <body style="background-color: aqua; font-family:serif">
-    <div style="background-color:lightgreen; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+    <div style="background-color:#cbd6cb; text-align: center; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
         <h1>Bolo de Chocolate fácil e prático</h1>
         <br>
         <h2>Hoje vamos aprender a fazer um <strong>MARAVILHOSO</strong> bolo de chocolate, simples  e fácil</h2>
@@ -20,6 +20,8 @@
         <h1>E pronto! Seu bolo está prontinho para você se deliciar</h1>
         <p><strong>OPCIONAL:</strong> Se você quiser, você pode adicionar brigadeiro em seu bolo para ele ficar mais delicioso ainda</p>
         <img src="https://bakeandcakegourmet.com.br/uploads/site/receitas/bolo-de-chocolate-facil-e-barato-rspxk8nc.jpg">
+        <br>
+        <h4>Aprenda a fazer um bolo de milho também! (link abaixo)</h4>
+        <a href="BoloDeMilho.html">Bolo De Milho.</a>
     </div>
 </body>
-
