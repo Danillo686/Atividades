@@ -1,0 +1,17 @@
+<html>
+<head>// estilo CSS é usado para fazer a msm coisa, porém vc n escreve, ele faz isso direoto do link
+<link rel="style" href="estilo.CSS">
+<style>
+    p { // todos que ultiliza "p" terão esses comandos
+        background-color:blueviolet;
+        color:white
+    }
+</style>
+
+<head>
+
+<body>
+<p> SKIBIDI</p>
+</body>
+
+</html>
