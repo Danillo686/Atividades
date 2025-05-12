@@ -1,0 +1,9 @@
+<html>
+<head>
+    <link rel="stylesheet" href="estilo.CSS"> // o link puxa uma informação da "Info" e traz pra esse script
+</head>
+
+<body>
+    <h3>Abcdefgijklmnopquvwxyz</h3>
+</body>
+</html>
