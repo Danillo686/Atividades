@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP</title>
+    <style>
+        /*Resetar as margens e definir a fonte da página*/
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins, sans-serif";
+        }
+        /*Definindo o fundo da página (gradient) E CENTRALIZAR O CONT*/
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #6c63ff, #48c6ef);
+            display: flex;
+            align-items: center; /*alinhamento vertical*/
+            justify-content: center; /*alinhamento horizontal*/
+        }
+        /*Estilizar o container*/
+        .login_container{
+            background-color: white;
+            padding: 50px 30px;
+            border-radius: 12px;
+            box-shadow: 0px 10px 20px rgba(0,0, 0, 0.8);
+            width: 300px;
+            height: 230px;
+            text-align: center;
+        }
+        /*Estilizar o titulo*/
+        .login_container h2{
+            margin-bottom: 10px;
+            color: #333
+        }
+        /*Estilizar o campo de entrada (Usuário e Senha)*/
+
+        .login_container input{
+            width: 100%;
+            padding: 1px 1px;
+            margin: 10px 0px;
+            border-radius: 10px;
+            border: 1px solid #000000;
+            font-size: 14px;
+        }
+        /*Estilizando o botão*/
+        
+        .login_container button{
+            border-radius: 20px;
+            border: 2px solid #00000000;
+            width: 40;
+            border-color: #000000;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Container da tela de login-->
+    <div class="login_container">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Usuário" required>
+            
+            <input type="password" placeholder="Senha" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <a href="site.html">Esqueceu a Senha?</a>
+
+    </div>
+</body>
+</html> 
