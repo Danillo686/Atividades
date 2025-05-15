@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <style>
+
+            /*é necessario determinar a margin e o padding para depois poder alinha-lo no centro*/
+
+        *{
+            margin: 0; /*Seta a margin, necessario para poder deixa-lo no centro*/
+            padding: 0; /*Seta o padding, também necessário para deixa-lo no centro*/
+        }
+
+        
+
+        body {
+            justify-content: center; /*alinhamento horizontal*/
+            align-items: center; /*alinhamento vertical*/
+            display: flex;  /*Deixa o botão no centro*/
+        }
+        button {
+            background-color: green; /*Deixa o fundo do botão verde*/
+            color: white; /*Deixa a letra branca*/
+            border-radius: 10px; /*Deixa a borda arredondada*/
+            height: 25px; /*Tamanho do botão*/  
+            transition: 0.3s; /*Transição para mudar a cor quando o mouse passar por cima*/
+            cursor: pointer; /*Muda o cursor, sinalizando que é clicável*/
+        }
+
+        button:hover{
+            background-color:darkgreen; /*quando o mouse passar por cima, ele fica verde escuro*/
+        }
+
+        </style>
+    </head>
+    <body>
+        <div id="Botão">
+            <button>Clique</button>
+        </div>
+    </body>
+</html>
