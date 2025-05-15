@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <style>
+           *{
+            padding: 0; /*padding, margin, aling-itens, display, justify-content, trabalham juntos para poder deixar a caixa no centro*/
+            margin: 0;
+            }
+
+            body{
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            }
+            .Caixa{
+            background-color: brown; /*cor de fundo da caixa*/
+            padding: 20px;
+            margin: 30px;
+            border-radius: 12px; /*arredondar a bordar*/
+            box-shadow: 0px 10px 20px rgba(0,0, 0, 0.8); /*sombra pra caixa*/ 
+            width: 300px; /*largura*/ 
+            height: 100px; /*altura*/ 
+            text-align: center; /*alinha no centro*/ 
+            border: 2px solid; /*borda de 2px*/
+            }
+            input{
+                border-radius: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Caixa">
+            <input type="text">
+        </div>
+    </body>
+</html
