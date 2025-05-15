@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP</title>
+    <style>
+        /*Resetar as margens e definir a fonte da página*/
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins, sans-serif";
+        }
+        /*Definindo o fundo da página (gradient) E CENTRALIZAR O CONT*/
+        body {
+            height: 100vh;
+            background: linear-gradient(135deg, #6c63ff, #48c6ef);
+            display: flex;
+            align-items: center; /*alinhamento vertical*/
+            justify-content: center; /*alinhamento horizontal*/
+        }
+        /*Estilizar o container*/
+        .login_container{
+            background-color: white;
+            padding: 50px 30px;
+            border-radius: 12px;
+            box-shadow: 0px 10px 20px rgba(0,0, 0, 0.8);
+            width: 300px;
+            height: 250px;
+            text-align: center;
+        }
+        /*Estilizar o titulo*/
+        .login_container h2{
+            margin-bottom: 10px;
+            color: #333
+        }
+        /*Estilizar o campo de entrada (Usuário e Senha)*/
+
+        .login_container input{
+            width: 100%; /*Ocupar toda a largura*/
+            padding: 1px 1px; /*Espaço interno*/
+            margin: 10px 0px; /*Espaço entre os dois input*/
+            border-radius: 5px; /*Deixa as bordas arredondadas*/
+            border: 1px solid #000000; /*Largura e cor da borda*/
+            font-size: 14px; /*Aumentou a fonte*/
+        }
+        /*Estilizando o botão*/
+        
+        .login_container button{
+            border-radius: 8px; /*deixa a borda redonda*/
+            border:none; /*retira a borda*/
+            width: 100%; /*Largura do botão*/
+            border-color: #000000; /*cor da borda*/
+            padding: 10px; /*Distancia de dentro, da escrita da borda*/
+            margin-top: 5px; /*a distancia entre os input's*/
+            background-color: blueviolet; /*Cor do fundo do botão*/
+            color: whitesmoke; /*Muda a cor da letra dentro do botão*/
+            font-size: 16px; /*aumenta a fonte também*/
+            font-weight: bold; /*Deixa a fonte em negrito*/
+            cursor:pointer; /*Muda o cursor para mostrar que é um botão*/
+            transition: background 0.3s; /*animação*/
+        }
+
+        /*Colocando a animação*/
+
+        .login_container button:hover {
+            background: black; /*Quando o mouse passar por cima do botão a cor dele ficará preta, amiação*/
+        }
+
+        /*Estilizar o texto "Esqueceu a senha?"*/
+
+        .login_container p{
+            margin-top: 15px;
+            font-size: 12px;
+            color: #666;
+        }
+
+    </style>
+</head>
+<body>
+    <!--Container da tela de login-->
+    <div class="login_container">
+        <h2>Login</h2>
+        <form>
+            <input type="text" placeholder="Usuário" required>
+            
+            <input type="password" placeholder="Senha" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+        <p>Esqueceu a Senha?</p>
+
+    </div>
+</body>
+</html> 
