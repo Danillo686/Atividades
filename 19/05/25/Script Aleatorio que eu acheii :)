@@ -1,0 +1,101 @@
+<!DOCTYPE html><!--indica que estae é um documento HTML5 -->
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"contant="width=device-width, initial-scale=1.0">
+        <title> Meu primeiro site coração</title>
+    </head>
+<style>
+/* Definição de estilos(CSS) gerais*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{  font-family: 'comic sans MS',cursive,
+sans-serif;
+    background-color: #4b00b2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0 , 0 ,0.2);
+
+}
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0;
+    animation: titulo 2s infinite alternate;
+
+}
+
+@keyframes titulo {
+    from {transform: scale(1);}
+    to {transform: scale(1.05);}
+}
+
+nav{
+    background-color: #9370db;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-align: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: inline-block;
+    transition: all 0.3s;
+}
+
+nav a:hover{
+    background-color: #483d8b;
+    transform: translateY(-3px);
+
+}
+main{
+    max-width: 800px;
+    margin: 20px auto;
+
+}
+</style>
+<body>
+    <header>
+        <h1>Meu primeiro site</h1>
+        <p>criando na aula de desenvolvimento de sistema</p>
+    </header>
+
+    <nav>
+        <a href="#sobre">sobre</a>
+        <a href="#elementos-htmll">HTML</a>
+        <a href="#estilo-css">CSS</a>
+        <a href="#interativo">interativo</a>
+        <a href="#salame">Salame</a>
+
+    </nav>
+    <main>
+<section id="sobre">
+    <h2> bem vindo ao meu proprio site</h2>
+    <p>Este é um site criado aprnas com <strong>HTML</strong>
+        e <strong>CSS</strong> para demonstrar os conceitos basicos de desenvolvimento web.
+    <p\>
+<p>Aqui você encontrará exemplos de:</p>
+<ol>
+<li>estrutura basica de HTML</li>
+<li>formatação de textos e cores</li>
+<li>layout e posicionamento</li>
+<li>Elementos interativo simples</li>
+<li>responsividade</li>
+</ol>
+</main>
+</body>
+</html>
