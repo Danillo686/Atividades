@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>        
+        var n1 = Number.parseInt(window.prompt ("Escolha um número")) //o Number.Parseint faz com que o n1 sejá um numeral, pois o prompt transforma a número em string
+        var n2 = Number.parseInt(window.prompt ("Escolha outro número")) 
+        var n3 = n1 + n2 //definindo que "n3" será o valor desses dois 
+
+       window.alert (`A soma de ${n1} + ${n2} é ${n3}`) //Serve para facilitar a exibição de algo nesse tipo, sem concatenação (OBRIGATORIO O USO DE CRASE "``" e "${n}")
+       //window.alert ("A soma de " + n1 + " + " + n2 + " é igual á " + n3) // com concatenação (tire as duas barras do ínicio para ver :)
+    </script>
+    
+</body>
+</html>
+ 
