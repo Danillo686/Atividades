@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Olá, mundo
+    <script>
+    var n1 = Number.parseInt(window.prompt ("Escolha um número")) //o Number.Parseint faz com que o n1 sejá um numeral, pois o prompt transforma a número em string
+    var n2 = Number.parseInt(window.prompt ("Escolha outro número")) 
+    var n3 = n1 + n2 //definindo que "n3" será o valor desses dois 
+    window.alert (n3) // e aqui mostra o nosso valor 
+    //o comando "Number()" também pode ser usado, ele vai funcionar com os dois, tanto com float e número normal-->
+    </script>
+</body>
+</html>
+ 
