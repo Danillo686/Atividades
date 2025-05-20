@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nome = window.prompt("Qual o seu nome?")
+        document.write (`Olá ${nome}. Seu nome possui ${nome.length} letras! <br>`) //Document.write, ele escreve o "nome", o ".length" fala QUANTAS letras tem o que você digitou Ex: Pablo, result = 5
+        
+        document.write (`Olá ${nome}. Seu nome em maiúsculo fica: ${nome.toUpperCase()} <br>`) // o toUpperCase server para escrever em letra maiúscula
+        
+        document.write (`Olá ${nome}. Seu nome em minúsculo fica: ${nome.toLowerCase()}`) // o toLowerCase serve para deixar em minúsculo
+        //OBS: quando for usar <br>, tem que ser DENTRO das CRASES "``"
+    </script>
+</body>
+</html>
