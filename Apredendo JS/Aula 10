@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evenos DOM</title>
+    <style>
+        div#area{
+            background: cornflowerblue;
+            color: #ffffff;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area"><!--id="area" onclick="clicar()" onmouseenter="entrar()" onmouseleave="sair()"// esse comando também serve para fazer, porém é grande e complicado-->
+        interaja...
+    </div>
+
+     <script>
+        var a = window.document.getElementById("area") // aqui a var "a" passa a ser a div
+        a.addEventListener("click", clicar) //quando o mouse clicar
+         a.addEventListener("mouseenter", entrar) //quando o mouse entrar 
+        a.addEventListener ("mouseout", sair) //quando o mouse sair 
+
+        function clicar() { //quando o mouse clicar, o fundo fica vermelho e aparece "clicou"
+          a.innerText ="clicou"
+          a.style.background = "red"
+        }
+
+        function entrar() { //quando o mouse entrar, aparece "Entrou"
+            a.innerText = "Entrou"
+        }
+
+        function sair() { //quando o mouse sair, o fundo fica azul e aparece "saiu"
+            a.innerText = "saiu"
+            a.style.background = "cornflowerblue"
+        }     
+     </script>
+     
+</body>
+</html>
