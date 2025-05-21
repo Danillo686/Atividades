@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+    <style>
+        body{
+            background-color: cadetblue;
+            color: beige;
+            text-align: center;
+            font: nomal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="apd">Apredendo DOM</h1>
+    <p id = "w">Aqui vai o resultado</p>
+    <p class = "epa">Começando a usar <strong>DOM</sytrong> em Java Script.</p>
+    <div name = "vid">Clique aqui</div>
+    <script>
+        var corpo = window.document.body // o corpo passa a ser o body do html
+        corpo.style.background = "black" // aqui o corpo tranforma o body em preto
+        var p1 = window.document.getElementsByTagName("p") [1] //Ele pode pegar qualquer elemento, nesse caso usei "p", as chaves servem pra definir um em éspecifico, EX: [0] = primeiro paragrafo, [1] = segundo paragrafo
+        window.document.write ("Ele copia, EX: " + p1.innerText) // o innerText está escrevendo a mesma coisa que o segundo paragráfo "Começando a usar DOM em Java Script"    
+        //pode usar o innerHTML, já que o html faz igual, o innerText não deixou em negrito, já o html deixa, porém ele mostrar os comandos (<strong>)
+        var msg = window.document.getElementById("apd") //o getElementById, puxa o id de algo que escolher, (usei o h1 com id de apd) em seguida minha var passar a ser aquele h1
+        msg.style.background = "blue" // aqui modificamos o h1 para ficar com o fundo azul
+        var send = window.document.getElementsByName ("vid")[0]//como essa get está em plural, é necessário usar cochetes para escolher a desejável (se quiser usar em todas, deixa sem cochetes) obrigatório o uso do cochetes, mesmo que seja uma
+        send.style.background = "green" //modificando para ficar verde
+        var y = window.document.getElementsByClassName ("epa") [1] //aqui o get usa a class (eu peguei do paragrafo 2, por isso "[1]") funciona igual as outras get, porem aqui é classe
+        y.innerText = "Aqui eu modifiquei" // eu mudei o segundo paragráfo por esse comando
+        var x = window.document.querySelector ("p#w") [0]
+        x.style.background = "red"
+    </script>
+</body>
+</html>
