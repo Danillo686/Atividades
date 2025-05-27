@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecionamento</title>
+    <script>
+        function verificarEntrada() {
+            let entrada = document.getElementById("entrada").value;
+            if (entrada.toLowerCase() === "brasileiro") { // Verifica se a entrada é "brasileiro"
+                window.location.href = "b.html"; // Redireciona para outra página
+            } else {
+                alert("Resposta incorreta, tente novamente.");
+            }
+        }
+    </script>
+</head>
+<body>
+    <label for="entrada">Digite aqui:</label>
+    <input type="text" id="entrada">
+    <button onclick="verificarEntrada()">Enviar</button>
+</body>
+</html>
