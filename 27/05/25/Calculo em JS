@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        var broa, resultado
+        var pao, porcent
+
+        pao = Number(prompt("Total de pães"))
+        broa = Number(prompt("Total de broas"))
+
+        pao = pao * 0.12
+        broa = broa * 1.50
+
+        resultado = pao + broa
+
+        //10%
+
+        porcent = resultado * 10 / 100
+        
+        alert(`Valor dos pães ${pao}R$`)
+        alert(`Valor das broas ${broa}R$`)
+        alert(`Seu lucro foi de ${resultado}R$`)
+        alert (`Seus 10% equivale à ${porcent}R$`)
+    </script>
+</body>
+</html>
