@@ -1,0 +1,116 @@
+<html lang="pt-BR">
+    <head>
+        <style>
+        *{
+            text-align: center;
+        }
+        #menu{
+              background-color: rgba(231, 229, 229, 0.761);  
+              height: 100%;
+              border-radius: 10px;
+              border-color: black;
+              box-shadow: 0px 10px 20px rgba(0,0, 0, 0.8)
+        }
+
+        #pesquisa{
+            text-align: center;
+            margin-top: 300;
+            border-radius: 20px;
+            width: 250;
+            padding: 2;
+            border-color: rgb(171, 165, 158);
+            margin-bottom: 10;
+            background-color: rgb(224, 236, 236);
+            box-shadow: 0px 5px 5px rgba(0,0, 0, 0.8)
+        }
+
+        #escolha {
+            border-radius: 10px;
+            border:none;
+            display: inline-block;
+            cursor: pointer;
+            margin-top: 60;
+            margin: 20;
+            border-color: rgb(255, 255, 255);
+        }
+
+        #olhar{
+            border: none;
+            cursor:pointer;
+            border-radius: 20px;
+            padding: 2
+        }
+
+        #olhar:hover{
+            background-color: rgb(223, 216, 216);
+        }
+        </style>
+    </head>
+    <body style="background-color: rgb(255, 255, 255);">
+        <h1 style="text-align: center;">Ahiar</h1>
+        
+        <div id="menu">
+                <input type="text" id="pesquisa" placeholder="O que você procura hoje?">
+                <button onclick="verificar()" id="verificar">Pesquisar</button>
+                <br>
+                <a href="a.html" id="escolha">a</a>
+                <a href="" id="escolha">Shampoo's?</a>
+                <a href="" id="escolha">Cremes?</a>
+                <a href="" id="escolha">Esmaltes?</a>
+                <a href="" id="escolha">Deliniadores?</a>
+                <br>
+                <a href="" id="escolha">Máscaras?</a>
+                <a href="" id="escolha">Perfumes?</a>
+                <a href="" id="escolha">Batons?</a>
+                <a href="" id="escolha">Águas Micelares?</a>
+                <a href="" id="escolha">Glosses?</a>
+                <br>
+                <a href="" id="escolha">Paletas de Sombras?</a>
+                <a href="" id="escolha">a</a>
+                <a href="" id="escolha">a</a>
+                <a href="" id="escolha">a</a>
+                <a href="" id="escolha">a</a>
+                <br>
+                <a href="" id="escolha">a</a>
+                <a href="" id="escolha">a</a>
+                <a href="" id="escolha">a</a>
+                <a href="" id="escolha">a</a>
+                <a href="" id="escolha">a</a>
+            </div>
+            <script> //entradas
+                function verificar(){ //BARRA DE PESQUISA
+                    let entrada = window.document.getElementById("pesquisa").value
+                    
+                    if (entrada.toLowerCase() === "perfume"){
+                       window.location.href = "perfume.html";
+                    }else if (entrada.toLowerCase() === "creme" || entrada.toLowerCase() === "creme corporal" || entrada.toLowerCase() === "cremes" || entrada.toLowerCase() === "cremes corporais"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "perfume" || entrada.toLowerCase() === "perfumes" || entrada.toLowerCase() === "perfumes chiques" || entrada.toLowerCase() === "perfumes infatis"){
+                        window.local.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "sabonete" || entrada.toLowerCase() === "sabonetes" || entrada.toLowerCase() === "sabonetes corporal" || entrada.toLowerCase() === "sabonete corporal"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "batons" || entrada.toLowerCase() === "batom"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "água" || entrada.toLowerCase() === "agua" || entrada.toLowerCase() === "água micelar"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "deliniador" || entrada.toLowerCase() === "deliniadores" || entrada.toLowerCase() === "deliniado"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "esmalte" || entrada.toLowerCase() === "esmaltes" || entrada.toLowerCase() === "esmalt"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "gloss" || entrada.toLowerCase() === "glosses" || entrada.toLowerCase() === "glos"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "lapis" || entrada.toLowerCase() === "lápis" || entrada.toLowerCase() === "lápis para olho"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "limpador facial" || entrada.toLowerCase() === "limpa" || entrada.toLowerCase() === "limpa facial" || entrada.toLowerCase() === "limpador"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "mascara" || entrada.toLowerCase() === "máscara" || entrada.toLowerCase() === "mascara para cilios" || entrada.toLowerCase() === "máscara para cilios"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "paleta" || entrada.toLowerCase() === "paleta de sombras" || entrada.toLowerCase() === "sombra"){
+                        window.location.href = "perfume.html"
+                    }else if (entrada.toLowerCase() === "shampoo" || entrada.toLowerCase() === "shampo"){
+                        window.location.href = "perfume.html"
+                    }
+                }
+            </script>
+    </body>
+</html>
