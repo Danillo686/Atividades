@@ -1,0 +1,45 @@
+<html lang="pt-BR">
+<head>
+    <style>
+        #oi{
+            background-color: antiquewhite;
+            padding: 100;
+            border-radius: 20px;
+            margin: 20;
+            margin-top: 90;
+            
+        }
+
+        #resp{
+            margin-left: 400;
+            width: 200;
+            border-radius: 20px;
+            border-color: beige;
+        }
+
+        #but {
+            border-radius: 20px;
+            border: none;
+            cursor: pointer;
+        }
+        #but:hover{
+            background-color: bisque;
+        }
+    </style>
+    <script>
+        alert ("Posso saber seu nome primeiramente?")
+        var nome = window.document.getElementById("resp").value
+        var msg = window.document.getElementById("mensagem")
+        function click(){
+            msg.innerHTML = `Olá, ${nome}, tudo bem?`
+        }
+    </script/>
+</head>
+<body style="background-color: pink;">
+    <div id="oi">
+        <input type="text" id="resp" placeholder="Ok, obrigado, digite-o aqui">
+        <button id="but" onclick="click()">Envie</button>
+        <div id="mensagem"></div>
+    </div>
+</body>
+</html>
