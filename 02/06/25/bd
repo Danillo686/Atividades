@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            text-align: center;
+            margin: 10;
+        }
+    </style>
+</head>
+<body style="background-color: antiquewhite;">
+
+    <div id="masculino">
+    <h1>Coloque sua altura</h1>
+    <input id="alturaM" type="number" placeholder="Masculino">
+    <button value="Enviar" onclick="calcM()">Enviar</button>
+    </div>
+
+
+           
+    <div id="feminino">
+    <input id="alturaF" type="number" placeholder="Feminino">
+    <button value="Enviar" onclick="calcF()">Enviar</button>
+    <br>
+    </div>
+
+    <div id="resp">Sua resposta</div>
+
+    <script>
+        var alturaM, alturaF, resp, calc
+        function calcF(){
+        alturaF = window.document.getElementById("alturaF").value
+        resp = window.document.getElementById("resp")
+        calc = 21 * (alturaF ** 2)
+        resp.innerHTML = `Seu peso é ${calc}`
+        }
+
+        function calcM(){
+            alturaM = window.document.getElementById("alturaM").value
+            resp = window.document.getElementById("resp")
+            calc = 22 * (alturaM ** 2)
+            resp.innerHTML = `Seu peso é ${calc}`
+        }
+    </script>
+</body>
+</html>
