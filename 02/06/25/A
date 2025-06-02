@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var numb
+        var numb2 = "ordem decrescente!\n"
+
+        numb = Number(prompt("Escolha um número"))
+
+        for (; numb >= 1 ; numb--){
+            numb2 += numb + "\n"
+        }    
+        alert (numb2)
+    </script>
+</body>
+</html>
+
