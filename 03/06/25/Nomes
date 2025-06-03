@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nomes</title>--------------
+</head>
+<body>
+    <script>
+        var nome, idade
+
+        nome = (prompt("Olá, qual o seu nome?"))
+        idade = Number (prompt("Ok, posso saber sua idade agora?"))
+
+        alert (`Bom, seu nome é ${nome}, e você tem ${idade} anos`)
+    </script>
+</body>
+</html>
