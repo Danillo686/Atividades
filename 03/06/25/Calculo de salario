@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario</title>
+</head>
+<body>
+    <script>
+        var salario1, imposto, salario2, porcent, salarioFinal
+
+        salario1 = Number(prompt("Digite seu salário"))
+        porcent = salario1 * 15 / 100
+        salario2 = porcent + salario1
+        imposto = salario1 * 8 / 100
+        salarioFinal = imposto - salario2
+
+        alert (`Seu salario inicial era de ${salario1}R$, e ganhou mais 15% (${porcent}), equivalendo a ${salario2}R$. Desconto de 8% de imposto (${imposto}), então seu salario final equivale á ${salarioFinal}R$`)
+    </script>
+</body>
+</html>
