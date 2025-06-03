@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="c1" onclick="c1()">350ml</button>
+    <button id="c2" onclick="c2()">600ml</button>
+    <button id="c3" onclick="c3()">2L</button>
+    <script>
+        var litros
+        function c1(){
+            
+        }
+        //calcular os litros q os user escolher, 
+    </script>
+</body>
+</html>
