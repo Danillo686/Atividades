@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>money</title>
+</head>
+<body>
+    <script>
+        var dinheiro, impostos, horas, horasExtras, dinheiroExtra, dinheiroTotal, valorFinal
+
+        horas = Number(prompt("Digite as horas que você trabalhou hoje"))
+        dinheiro = horas * 10
+        horasExtras = Number(prompt("Você fez horas etrax? Se sim, digite-o, se não, deixe 0"))
+        dinheiroExtra = horasExtras * 15
+        dinheiroTotal = dinheiro + dinheiroExtra
+        impostos = dinheiroTotal * 10 / 100
+        valorFinal = impostos - dinheiroTotal
+        alert(`Você trabalhou ${horas} horas, então seu salario será de ${dinheiro}`)
+        alert(`Suas horas extras foram de ${horasExtras}, então você reberá mais ${dinheiroExtra}`)
+        alert(`O valor total do seu salário será de ${dinheiroTotal}, com o imposto de 10% (${impostos}) fica ${valorFinal}`)
+    </script>
+</body>
+</html>
