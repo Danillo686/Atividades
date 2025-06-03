@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão</title>
+</head>
+<body>
+    <script>
+        var temperaturaC, temperatura2 
+
+        temperaturaC = Number(prompt("Coloque o grau para converte-lo"))
+        temperatura2 = temperaturaC * (9/5)
+        temperatura2 = temperatura2 + 32
+
+        alert (`A temperatura ${temperaturaC} fica ${temperatura2} em fahrenheit`)
+    </script>
+</body>
+</html>
